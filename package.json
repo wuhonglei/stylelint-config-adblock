@@ -1,6 +1,6 @@
 {
   "name": "@wuhonglei/stylelint-config-adblock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "disable selector list which hidden by adBlock",
   "main": "./lib/index.js",
   "scripts": {
