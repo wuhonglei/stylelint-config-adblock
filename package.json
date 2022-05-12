@@ -12,9 +12,6 @@
     "adblock",
     "selector"
   ],
-  "peerDependencies": {
-    "stylelint": "^14.8.2"
-  },
   "author": "wuhonglei",
   "email": "1017368065@qq.com",
   "license": "MIT",
