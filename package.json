@@ -1,0 +1,24 @@
+{
+  "name": "@wuhonglei/stylelint-config-adblock",
+  "version": "1.0.0",
+  "description": "disable selector list which hidden by adBlock",
+  "main": "./lib/index.js",
+  "scripts": {
+    "parse": "node ./bin/parse.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stylelint",
+    "adblock",
+    "selector"
+  ],
+  "peerDependencies": {
+    "stylelint": "^14.8.2"
+  },
+  "author": "wuhonglei",
+  "email": "1017368065@qq.com",
+  "license": "MIT",
+  "dependencies": {
+    "@wuhonglei/selector-disallowed-list": "^1.0.4"
+  }
+}
