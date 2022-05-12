@@ -1,6 +1,6 @@
 {
   "name": "@shopee-ads/stylelint-config-adblock",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "disable selector list which hidden by adBlock",
   "main": "./lib/index.js",
   "scripts": {
@@ -17,5 +17,9 @@
   "license": "MIT",
   "dependencies": {
     "@shopee-ads/selector-disallowed-list": "^1.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wuhonglei/stylelint-config-adblock.git"
   }
 }
