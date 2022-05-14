@@ -1,6 +1,6 @@
 {
   "name": "@shopee-ads/stylelint-config-adblock",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "disable selector list which hidden by adBlock",
   "main": "./lib/index.js",
   "scripts": {
