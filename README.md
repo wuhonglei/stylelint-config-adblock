@@ -1,6 +1,6 @@
 ## 介绍
 
-用于检测 css 中是否存在 [ad block](https://www.getadblock.com/zh_CN/) 能够识别的[样式名称](https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt)。启用该规则后的效果如下图所示：
+这是一份 stylelint 规则配置，用于检测 css 中是否存在 [ad block](https://www.getadblock.com/zh_CN/) 能够识别的[样式名称](https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt)，当识别到对应样式时，会进行 error 提示，如下图所示：
 
 ![lint-demo](./doc/lint.png)
 
