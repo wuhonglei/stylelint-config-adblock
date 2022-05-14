@@ -27,7 +27,15 @@ function writeContentToFile(rowList) {
 
 function isClassSelector(str) {
   const pattern = /^(##)(\.)([a-z])/;
-  return pattern.test(str);
+  if (!pattern.test(str)) {
+    return false;
+  }
+
+  if (str.includes('yahoo')) {
+    return false;
+  }
+
+  return true;
 }
 
 function extractClassSelector(str) {
