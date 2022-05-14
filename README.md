@@ -33,8 +33,8 @@
 
 1. 使用 vscode 书写 css 样式时，如何获得编辑器的 lint 提示
 
-   答：安装 `stylelint` 插件
+   答：安装 vscode `stylelint` 插件
 
 2. 如何对项目进行一次全局校验
 
-   答: `npx stylelint ./src/**/*.(css|less|scss|postcss)`
+   答: 在项目根目录执行 `npx stylelint ./src/**/*.(css|less|scss|postcss)`
