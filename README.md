@@ -13,7 +13,9 @@
 
 ## 安装
 
-> npm i @shopee-ads/stylelint-config-adblock --save-dev
+```bash
+npm i @shopee-ads/stylelint-config-adblock --save-dev
+```
 
 ## 前置依赖
 
@@ -38,3 +40,26 @@
 2. 如何对项目进行一次全局校验
 
    答: 在项目根目录执行 `npx stylelint ./src/**/*.(css|less|scss|postcss)`
+
+## 场景问题
+
+1. 执行 `npx stylelint ./src/**/*.(css|less|scss|postcss)` 报如下错误：
+
+   ```bash
+   ... When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-less", and use the "customSyntax" option
+   ```
+
+   答: stylelint 14 及以上版本对于非 css 文件的语法检测，需要手动指明 customSyntax，比如 less 文件的解析需要使用 `postcss-less` 语法解析器。
+
+   ```bash
+   npm i postcss-less --save-dev
+   ```
+
+   增加 customSyntax 配置
+
+   ```json
+   {
+     "extends": ["@shopee-ads/stylelint-config-adblock"],
+     "customSyntax": "postcss-less"
+   }
+   ```
