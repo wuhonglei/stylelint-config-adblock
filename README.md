@@ -41,7 +41,7 @@ npm i @shopee-ads/stylelint-config-adblock --save-dev
 
    答: 在项目根目录执行 `npx stylelint ./src/**/*.(css|less|scss|postcss)`
 
-## 场景问题
+## 常见问题
 
 1. 执行 `npx stylelint ./src/**/*.(css|less|scss|postcss)` 报如下错误：
 
